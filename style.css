@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #393C57;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.bus_info_box {
+  align-content: center;
+  background-color: #393C57;
+  border: 1px solid #606386;
+  border-radius: 5px;
+  box-shadow: 3px 3px #303036;
+  display: grid;
+  font-weight: lighter;
+  grid-column-gap: 33px;
+  grid-template-columns: auto auto auto 20px;
+  height: 60px;
+  justify-content: space-between;
+  margin-left: 12px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 365px;
+}
+
+
+
+.container {
+  background-color: #393C57;
+}
+
+.direction {
+  font-size: 18px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.grid-item-1 {
+   align-content: space-between;
+}
+
+.grid-item-2 {
+  text-align: center;
+  font-size: 1.2em;
+  min-width: : 80px;
+}
+
+.grid-item-3 {
+  text-align: right;
+  font-size: 1.2em;
+  min-width: 80px;
+}
+
+.grid-item-4 {
+  font-size: 1em;
+  min-width: 86px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.grid-item-5 {
+  margin-top: 9px;
+  font-size: 1.3em;
+}
+
+.grid-item-6 {
+  font-size: 1.1em;
+  padding-top: 3px;
+  text-align: center;
+}
+
+
+.nav{
+	
+}
+
+.top-nav {
+  background-color: #393C57;
+  text-align: center;
+}
