@@ -46,7 +46,7 @@ table {
 }
 
 body {
-  background-color: white;
+  background-color: #ECECEC;
   color: white;
   font-family: 'SF Pro Text', sans-serif;
   font-weight: lighter;
@@ -75,7 +75,7 @@ body {
 
 
 .container {
-  background-color: white;
+  background-color: #ECECEC;
 }
 
 .direction {
@@ -165,10 +165,14 @@ body {
 
 
 .status-bar {
+  display: block;
 	padding-left: 8px;
 
 }
 
+.statbar-image {
+	display: block;
+}
 
 .top-nav {
   background-color: #007AFF;
