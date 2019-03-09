@@ -46,7 +46,7 @@ table {
 }
 
 body {
-  background-color: #007AFF;
+  background-color: white;
   color: white;
   font-family: 'SF Pro Text', sans-serif;
   font-weight: lighter;
@@ -75,12 +75,14 @@ body {
 
 
 .container {
-  background-color: #007AFF;
+  background-color: white;
 }
 
 .direction {
-  font-size: 18px;
-  margin-left: 15px;
+  color: #007AFF;
+	font-size: 18px;
+  font-weight: bold;
+	margin-left: 15px;
   margin-bottom: 10px;
 }
 
@@ -152,8 +154,8 @@ body {
 }
 
 .menu {
-  margin-left: 0;
-	padding-right: 9px;
+  margin-left: 10px;
+	padding-right: 5px;
 	padding-top: 9px;
 }
 
@@ -163,7 +165,8 @@ body {
 
 
 .status-bar {
-	padding-left: 10px;
+	padding-left: 8px;
+
 }
 
 
@@ -174,6 +177,7 @@ body {
 	grid-template-columns: 20px 190px 20px;
 	height: 40px;
 	justify-content: space-between;
-  margin-bottom: 6px;
-	margin-top: 6px;
+  margin-left: 8px;
+	padding-right: 35px;
+	width: 375px;
  }
