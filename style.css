@@ -47,29 +47,26 @@ table {
 
 body {
   background-color: #ECECEC;
-  color: white;
+  color: black;
   font-family: 'SF Pro Text', sans-serif;
   font-weight: lighter;
 }
 
 .bus_info_box {
   align-content: center;
-  background-color: #007AFF;
-  border: 0.5px solid #C6D9FC;
-  border-radius: 5px;
-  box-shadow: 3px 3px #0052AA;
-  display: grid;
-  font-weight: lighter;
+  background-color: #FFFFFF;
+  border-bottom: 0.4px solid #505050;
+	display: grid;
+  font-weight: normal;
   font-size: 14px;
 	grid-column-gap: 33px;
   grid-template-columns: auto auto auto 20px;
 	height: 60px;
   justify-content: space-between;
-  margin-left: 12px;
+  margin-left: 2px;
   margin-top: 2px;
-  margin-bottom: 10px;
   padding: 10px;
-  width: 365px;
+  width: 385px;
 }
 
 
@@ -79,16 +76,30 @@ body {
 }
 
 .direction {
-  color: #007AFF;
-	font-size: 18px;
+  font-size: 18px;
   font-weight: bold;
 	margin-left: 15px;
   margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.dir2 {
+	margin-bottom: 10px;
+  padding-top: 20px;
 }
 
 .l-arrow {
+  color: white;
 	padding-left: 12px;
 }
+
+.navbar-stop {
+  color: white;
+	font-size: 0.9em;
+	padding-top: 10px;
+  padding-left: 20px;
+}
+
 
 
 .number {
@@ -105,8 +116,9 @@ body {
 .frequency-1 {
   text-align: right;
   font-size: 1.2em;
-  min-width: 80px;
+  min-width: 60px;
   padding-top: 5px;
+  padding-left: 15px;
 }
 
 .destination-2 {
@@ -125,7 +137,8 @@ body {
 
 .frequency-2 {
   font-size: 1.1em;
-  padding-top: 3px;
+  padding-left: 10px;
+	padding-top: 3px;
   text-align: right;
 }
 
@@ -148,28 +161,30 @@ body {
 	text-align: center;
 }
 
+.map {
+	padding-right: 1px;
+}
 
 .map img {
    margin: 0;
 }
 
 .menu {
-  margin-left: 10px;
-	padding-right: 5px;
+  margin-left: 0;
+	padding-left: 17px;
 	padding-top: 9px;
 }
 
 .r-arrow {
+  color: #505050;
 	padding-top: 5px;
 }
-
 
 .status-bar {
   display: block;
 	padding-left: 8px;
 
 }
-
 .statbar-image {
 	display: block;
 }
@@ -178,7 +193,7 @@ body {
   background-color: #007AFF;
   display: grid;
   font-size: 1.1em;
-	grid-template-columns: 20px 190px 20px;
+	grid-template-columns: 20px 210px 20px;
 	height: 40px;
 	justify-content: space-between;
   margin-left: 8px;
